@@ -1,0 +1,91 @@
+html {
+	background: linear-gradient(to bottom, #fae7fa, #ffffe5);
+	background-attachment: fixed;
+	/*THIS MADE THE BACKGROUNG GRADIENT SCROLL AND NOT REPEAT*/
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.main-cont {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+#clear-all {
+	margin: 5%;
+}
+
+.input-cont {
+	width: 100%;
+	height: 35%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-cont input {
+	margin-bottom: 15px;
+}
+
+.input {
+	width: auto;
+	border: 2px solid #F6505E;
+}
+
+.main-list-cont {
+	width: 100%;
+	height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.table {
+	width: 40%;
+}
+
+.list-item-cont {
+	display: flex;
+    justify-content: space-around;
+	width: 20%;
+	height: 50px;
+
+}
+
+.total-btn-cont {
+	height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-cont {
+	height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+	background: linear-gradient(to bottom, #ff5f6d, #ffc371);
+	border: 2px solid #F6505E;
+	color: white;
+	font-weight: bold;
+}
+
+.checked {
+	text-decoration: line-through;
+	color: red;
+}

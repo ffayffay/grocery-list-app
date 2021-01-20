@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Grocery List</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<!-- Main Cont Start -->
+	<div class="main-cont">
+
+		<div class="clear-all-btn-cont">
+			<button id="clear-all" class="button">Clear List</button>
+		</div>
+
+		
+		<div class="input-cont">
+			<input class="input" id="name-input" type="text" name="new-list-item-name" placeholder="Add new item to list">
+			<input class="input" id="cost-input" type="number" name="new-list-item-cost" placeholder="Cost of item">
+			<input class="input" id="quantity-input" type="number" name="new-list-item-quantity" placeholder="Quantity">
+			<div class="input-btn-cont">
+				<button id="input-btn" class="button is-medium" onclick="addNewListItem()">Add</button>
+			</div>
+		</div>
+
+		<div class="main-list-cont">
+
+			<div class="total-btn-cont">
+				<button id="total-btn" class="button is-medium" onclick="displayTotal()">Get Total</button>
+			</div>
+			
+			<div class="list-cont">
+				<table id="table" class="table"></table>
+			</div>
+
+		</div>
+
+	</div>
+<!-- Main Cont End -->
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
